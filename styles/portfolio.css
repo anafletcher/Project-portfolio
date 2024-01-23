@@ -1,0 +1,11 @@
+h1 {
+  color: black;
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
