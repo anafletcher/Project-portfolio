@@ -37,7 +37,7 @@ p {
 .hero {
   background: var(--secondary-color);
   text-align: center;
-  padding: 120px 20px;
+  padding: 20px 20px;
 }
 
 .hero p {
@@ -115,6 +115,22 @@ p {
 
 .contact-info {
   text-align: center;
+}
+
+.logo {
+  max-width: 150px;
+}
+
+.active {
+  color: var(--branding-color) !important;
+}
+
+.nav-link {
+  padding: 0 30px !important;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
 }
 
 @media (max-width: 800px) {
