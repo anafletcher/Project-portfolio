@@ -163,7 +163,7 @@ footer .contact-box p {
 }
 
 footer .email-link {
-  font-size: 24px;
+  font-size: 22px;
   line-height: 36px;
   text-decoration: none;
   color: black;
@@ -196,9 +196,16 @@ footer p a {
   color: var(--branding-color);
 }
 
+footer .btn-branding:hover {
+  background: var(--secondary-color);
+  color: #272142;
+}
+
 @media (max-width: 800px) {
-  h1 {
+  h1,
+  .content h1 {
     font-size: 42px;
+    line-height: 58px;
   }
   h2 {
     font-size: 36px;
@@ -226,7 +233,14 @@ footer p a {
   .content {
     text-align: center;
   }
+
   .content-container {
-    padding: 50px 15px;
+    padding: 30px 15px;
+  }
+  footer .email-link {
+    font-size: 16px;
+  }
+  footer p {
+    font-size: 12px;
   }
 }
