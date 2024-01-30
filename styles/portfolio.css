@@ -37,9 +37,6 @@ p {
   line-height: 30px;
 }
 
-.navbar-brand {
-  font-family: cursive;
-}
 .hero {
   background: var(--secondary-color);
   text-align: center;
@@ -156,6 +153,11 @@ p {
   justify-content: flex-end;
 }
 
+.navbar-brand {
+  font-family: cursive;
+  margin-left: 10px;
+}
+
 footer {
   margin: 40px;
 }
@@ -240,6 +242,7 @@ footer .btn-branding:hover {
   }
   .content {
     text-align: center;
+    margin: 0;
   }
 
   .content-container {
