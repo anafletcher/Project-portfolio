@@ -27,7 +27,7 @@ h2 {
   font-size: 64px;
   font-weight: 700;
 }
-h4 {
+h3 {
   font-size: 48px;
 }
 
@@ -120,6 +120,18 @@ p {
   text-align: center;
 }
 
+.contact-info a {
+  text-decoration: none;
+  color: var(--branding-color);
+  padding: 5px 10px;
+}
+
+.contact-info a:hover {
+  background: var(--branding-color);
+  color: white;
+  border-radius: 20px;
+}
+
 .logo {
   max-width: 150px;
 }
@@ -157,6 +169,7 @@ footer .email-link {
   color: black;
   opacity: 0.7;
   text-align: center;
+  margin-top: 10px;
 }
 
 footer .email-link:hover {
@@ -164,7 +177,7 @@ footer .email-link:hover {
 }
 
 footer .social-links a {
-  margin: 0 20px;
+  margin: 30px 20px;
   color: var(--branding-color);
   background: var(--secondary-color);
   padding: 10px;
@@ -176,6 +189,11 @@ footer .social-links a {
 footer .social-links a:hover {
   color: white;
   background: var(--branding-color);
+}
+
+footer p a {
+  text-decoration: none;
+  color: var(--branding-color);
 }
 
 @media (max-width: 800px) {
