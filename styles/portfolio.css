@@ -254,4 +254,7 @@ footer .btn-branding:hover {
   footer p {
     font-size: 12px;
   }
+  .navbar-brand {
+    margin: none;
+  }
 }
