@@ -38,9 +38,17 @@ p {
 }
 
 .hero {
-  background: var(--secondary-color);
+  margin: 0 auto;
   text-align: center;
   padding: 20px 20px;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.6),
+      rgba(255, 255, 255, 0.4)
+    ),
+    url("../images/millenium-bridge.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .hero p {
