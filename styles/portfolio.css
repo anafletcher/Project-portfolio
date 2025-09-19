@@ -1,6 +1,6 @@
 :root {
-  --branding-color: #6c63ff;
-  --secondary-color: #f9f7fe;
+  --branding-color: #715acb;
+  --secondary-color: #f3e2f9;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
 }
@@ -140,7 +140,11 @@ section.secondary {
 }
 
 .project-description {
-  padding: 90px 60px;
+  padding: 10px 60px;
+}
+.contact-box {
+  background-color: var(--secondary-color);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .contact-info {
@@ -262,7 +266,7 @@ footer .btn-branding:hover {
     padding: 70px 20px;
   }
   .project-description {
-    padding: 0;
+    padding: 0 !important;
     font-size: 14px;
     text-align: center;
   }
