@@ -186,6 +186,10 @@ section.secondary {
   padding: 0 30px !important;
 }
 
+.nav-link:hover {
+  font-weight: 600;
+}
+
 .navbar-collapse {
   justify-content: flex-end;
 }
